@@ -1,0 +1,18 @@
+{
+  "name": "Strava AdBlocker",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Removes ads on Strava for upgrading to Premium.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Strava AdBlocker"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "permissions": ["https://www.strava.com/*", "tabs"]
+}
