@@ -8,3 +8,8 @@ Basic JS code:
     jQuery('.upgrade').remove();
     jQuery('.upsell').remove();
     jQuery('.promo').remove();
+
+## Installation
+
+- Go to Extensions in Chrome or Edge and enable Developer mode
+- Click "load unpacked" and select the /src/ directory
